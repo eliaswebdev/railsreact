@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+    <title>Railsreact</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag 'application', media: 'all' %>
+</head>
+  <body>
+  	<div id="app">
+    	<%= yield %>
+  	</div>
+  </body>
+  <%= javascript_include_tag 'application' %>
+</html>
